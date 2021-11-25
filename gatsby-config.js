@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "Coalbanks2021",
+    siteUrl: "https://www.coalbanks.com",
+    title: "Coalbanks Creative Inc.",
   },
-  plugins: [],
+  plugins: ['gatsby-plugin-postcss'],
 };
