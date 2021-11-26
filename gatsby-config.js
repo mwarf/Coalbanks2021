@@ -3,5 +3,5 @@ module.exports = {
     siteUrl: "https://www.coalbanks.com",
     title: "Coalbanks Creative Inc.",
   },
-  plugins: ['gatsby-plugin-postcss'],
+  plugins: ['gatsby-plugin-postcss','gatsby-plugin-dark-mode'],
 };

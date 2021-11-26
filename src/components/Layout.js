@@ -12,7 +12,7 @@ import {
   XIcon,
 } from '@heroicons/react/outline'
 import { ChevronRightIcon, ExternalLinkIcon } from '@heroicons/react/solid'
-
+import ThemeToggle from './themToggle'
 const Layout = ({children}) => {
 
     const navigation = [
@@ -112,12 +112,14 @@ const Layout = ({children}) => {
                 </div>
               </div>
               <div className="hidden md:flex md:items-center md:space-x-6">
-                <a
+              <a
                   href="#"
                   className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gray-600 hover:bg-gray-700"
                 >
                   Contact Us
                 </a>
+                <ThemeToggle />
+
               </div>
             </nav>
           </div>

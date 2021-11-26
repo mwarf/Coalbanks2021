@@ -22,7 +22,7 @@ const features = [
       icon: LockClosedIcon,
     },
     {
-      name: 'Drones',
+      name: 'Aerial Images',
       description: 'Rerum quas incidunt deleniti quaerat suscipit mollitia. Amet repellendus ut odit dolores qui.',
       icon: RefreshIcon,
     },
@@ -32,13 +32,13 @@ const features = [
       icon: ShieldCheckIcon,
     },
     {
-      name: 'Design',
+      name: 'Graphic Design',
       description:
         'Ab a facere voluptatem in quia corrupti veritatis aliquam. Veritatis labore quaerat ipsum quaerat id.',
       icon: CogIcon,
     },
     {
-      name: 'Web',
+      name: 'Website Design',
       description: 'Quia qui et est officia cupiditate qui consectetur. Ratione similique et impedit ea ipsum et.',
       icon: ServerIcon,
     },

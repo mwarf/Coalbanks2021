@@ -1,8 +1,9 @@
 import React from 'react'
+import ThemeToggle from './themToggle'
 
  const Hero = () => {
     return (
-    <div className="pt-10 bg-gray-900 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
+    <div className="pt-10 bg-gray-100 dark:bg-gray-900 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
 <div className="mx-auto max-w-7xl lg:px-8">
   <div className="lg:grid lg:grid-cols-2 lg:gap-8">
     <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
@@ -11,6 +12,7 @@ import React from 'react'
           <span className="block">Great stories, beautifully told by</span>
           <span className="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-teal-200 to-cyan-400 sm:pb-5">
           Coalbanks Creative.
+
           </span>
         </h1>
         <p className="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">
